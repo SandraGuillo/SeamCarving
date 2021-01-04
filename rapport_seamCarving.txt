@@ -1,0 +1,39 @@
+﻿CAI Yunfan
+GUILLO Sandra						
+
+				SEAM CARVING
+
+
+
+
+Nous avons travaillé ensemble.
+Pour nous partager le travail, on a prit chacun une question sur deux , Yunfan a alors commencé par écrire et tester la fonction « writepgm » ainsi que la fonction « tograph ».  J’ai alors fais de mon coté l’écriture et le test de la fonction « interest » et la fonction « bellman ford ». 
+Pour la réunion de ces fonctions, nous avons travaillé ensemble afin de terminer le logiciel. 
+
+Ce logiciel peut s'utiliser de deux manières différentes :  
+	- avec un seul argument , le nom de l'image que l'ont souhaite modifer 
+	- avec deux arguments , le nom de l'image en premier et en second argument, le nombre de colonne que l'on souhaite modifier. De base, on supprime 300 colonnes .
+
+On peut alors lancer le logiciel grâce à :
+	→ java -jar SeamCarving.jar <nomDeLImage.pgm> 
+Cette ligne va permettre d'enlever 300 colonnes de l'image données  
+	→ java -jar SeamCarving.jar <nomDeLImage.pgm> <nombreDeColonneASupprimerSouhaite>
+Cette ligne va permettre de choisir le nombre de colonne à supprimer sur l'image donnée.
+
+L’image prise pour exemple à pour adresse : 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.equirodi.com%2Fannonces%2Fcheval-a-vendre%2Fcheval-de-cso-130-reprise-jument-indicee-237461.htm&psig=AOvVaw3ENrjJKGvLPnoezXc8CBta&ust=1588635963051000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODSzKbwmOkCFQAAAAAdAAAAABAD
+
+Elle donne alors l’image copieNomDeLImage.pgm dans le dossier ou se situe le .jar
+La class principal se situe dans src/logiciel 
+
+Ce sont les liens pour récupérer notre code et des plus détails pour la répartition du travail.
+https://github.com/riverinthedesert/SeamCarving
+https://github.com/riverinthedesert/SeamCarving/commits/master
+
+
+Par exemple :
+java -jar SeamCarving.jar cheval.pgm        	(supprimer 300 colonnes)
+java -jar SeamCarving.jar cheval.pgm  400		(supprimer 400 colonnes)
+
+
+
